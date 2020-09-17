@@ -1,0 +1,24 @@
+import sys
+
+from src.exceptions import ArgumentsError
+from src.Managers.csv_manager import CsvManager
+from src.Managers.text_manager import TextManager
+from src.Algorithms.hierarchical_algorithms import SingleLink
+
+
+if __name__ == '__main__':
+    try:
+        if len(sys.argv) != 2:
+            raise ArgumentsError()
+        file_name = str(sys.argv[1])
+        data_set = CsvManager().reader(file_name=file_name)
+
+        SingleLink(data_set=list(data_set)).execute()
+
+        text_manager = TextManager()
+        file_name = text_manager.create_file_name(file_name)
+
+        # TODO Imprimir os grupos formados
+    except ValueError:
+        raise ArgumentsError(message='Tipo de dado passado nos argumentos não são válidos. '
+                                     'É esperado que o nome do arquivo seja do tipo texto')
