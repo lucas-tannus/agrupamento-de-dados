@@ -44,3 +44,11 @@
 	- O arg2 refere-se a quantidade de centroídes K
 
 6. Ao final, será gerado um novo arquivo .txt dentro de praticas/src/files/results com o resultado do algoritmo, que montará os grupos juntamento com seus centroídes
+
+                                                    ---- Prática 10 ----
+5.	Para executarmos então rodamos:
+		> python3 pratice_10.py {arg1}
+
+		- O arg1 refere-se ao nome do arquivo .csv da base de dados que deve estar dentro do diretório praticas/src/files IMPORTANTE: A extensão deve ser passada
+
+6. Ao final, será gerado um novo arquivo .txt dentro de praticas/src/files/results com o resultado do algoritmo
