@@ -52,3 +52,12 @@
 		- O arg1 refere-se ao nome do arquivo .csv da base de dados que deve estar dentro do diretório praticas/src/files IMPORTANTE: A extensão deve ser passada
 
 6. Ao final, será gerado um novo arquivo .txt dentro de praticas/src/files/results com o resultado do algoritmo
+
+                                                    ---- Prática 14 ----
+5.	Para executarmos então rodamos:
+		> python3 pratice_14.py {arg1}
+
+		- O arg1 refere-se ao nome do arquivo .csv da base de dados que deve estar dentro do diretório praticas/src/files IMPORTANTE: A extensão deve ser passada
+        - A classe dos objetos deve estar na última coluna dos dados passados
+
+6. Ao final, será gerado um novo arquivo .txt dentro de praticas/src/files/results com o resultado do algoritmo
